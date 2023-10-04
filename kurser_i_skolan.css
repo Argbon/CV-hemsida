@@ -1,0 +1,99 @@
+.name{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+  
+.grid-container{
+    display: grid;
+    height: 400px;
+    width: 600px;
+    border: solid black;
+    margin: auto;
+    padding-top: 50px;
+      
+}
+  
+.grid-item-1{
+    display: flex;
+    justify-content:center;
+    color: black;
+}
+  
+.grid-item-2{
+    margin-bottom: 20%;
+  }
+
+.list-item{
+    color:black;
+}
+
+.list-item :hover{
+    color: blue;
+}
+  
+.grid-container-2{
+    position: absolute;
+    display: grid;
+    left: 86%;
+    bottom: 22%;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;      
+}
+
+.grid-container-3{
+    position: absolute;
+    display: grid;
+    left: 86%;
+    bottom: 17%;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;  
+}
+
+.grid-container-4{
+    position: absolute;
+    display: grid;
+    left: 86%;
+    bottom: 12%;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+}
+  
+.grid :hover{
+    color: blue;
+}
+
+  .grid-item{
+    color:black;
+}  
+
+.mathpic{
+    width: 10%;
+    position: absolute;
+    left: 50%;
+    bottom: 60%;
+}
+
+.physicspic{
+    width: 10%;
+    position: absolute;
+    left: 58%;
+    bottom: 46%;
+}
+ 
+.programmingpic{
+    width: 12%;
+    position: absolute;
+    left: 52%;
+    bottom: 33%;
+}
+
+.religionpic{
+    width: 7%;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+}

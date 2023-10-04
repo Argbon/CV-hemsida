@@ -1,0 +1,57 @@
+.name{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .grid-container{
+      display: grid;
+      height: 400px;
+      width: 600px;
+      border: solid black;
+      margin: auto;
+      padding-top: 10px;
+      
+  }
+  
+  .grid-item-1{
+      display: flex;
+      justify-content:center;
+      color: black;
+      
+  }
+
+  .grid-item-2{
+    margin-bottom: 30%;
+  }
+
+  .grid-container-2{
+    display: grid;
+    position: absolute;
+    bottom: 17%;
+    left: 86%;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .grid-container-3{
+    display: grid;
+    position: absolute;
+    bottom: 12%;
+    left: 86%;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .grid-container-2 :hover{
+      color: blue;
+  }
+
+  .selfie{
+    width: 15%;
+    position: absolute;
+    bottom: 37%;
+    left:53%;
+  }

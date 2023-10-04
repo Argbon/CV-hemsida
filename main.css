@@ -1,0 +1,50 @@
+.grid-container{
+    display: grid;
+    font-size: 30px;
+    grid-template-columns: repeat(4, 1fr);;
+    padding-top: 35px;
+}
+
+.grid-container :hover{
+  color: blue;
+}
+
+.grid-item-a{
+  display: flex;
+  margin: auto;
+  align-items:center;
+  justify-content:center;
+  color: black;
+}
+
+.name{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.selfie{
+  max-width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.grid-container-2{
+  display: grid;
+  font-size: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.grid-item-b{
+  display: flex;
+  margin: auto;
+  align-items:center;
+  justify-content:center;
+}
+
+.line{
+  color:black;
+}
